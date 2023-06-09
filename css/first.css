@@ -1,0 +1,16 @@
+body{
+margin: 10;
+padding: 10;
+}
+
+ul li:nth-child(even){color:aqua;}
+ul li:nth-child(odd){color:rgb(1, 14, 9);}
+
+#h2{color: cornflowerblue;}
+#p{color: crimson;}
+
+#s{color: aquamarine;}
+#ss{color:cadetblue}
+
+.s{color: darkmagenta;}
+.ss{color: yellowgreen;}

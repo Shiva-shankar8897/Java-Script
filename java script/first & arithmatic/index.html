@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic</title>
+</head>
+<body>
+    <h1 id="main">I am learning Java script today onwards:</h1>
+    <h2 id="h2">Artithmetic Operations: class</h2>
+    <p id="add"></p>
+    <p id="sub"></p>
+    <p id="mul"></p>
+    <p id="div"></p>
+    <p id="mod"></p>
+
+
+    <h2>Artithmetic Operations: practice</h2> 
+    <p id="values"></p>
+    <p id="addi"></p>
+    <p id="subt"></p>
+    <p id="muli"></p>
+    <p id="divi"></p>
+    <p id="modu"></p>
+  <script>
+
+  a=Number(prompt("enter value of a:"));
+  b=Number(prompt("enter value of b:"));
+  c=Number(prompt("enter value of c:"));
+  console.log("a =",a ,"and b =",b ,"and c =",c)
+  document.getElementById("values").innerHTML= "a ="+ a + " and b ="+ b + " and c ="+ c
+
+  sum= a+b+c;
+  console.log("sum of a, b and c is:",sum)
+  document.getElementById("addi").style.color="rgb(25,50,75)"
+  document.getElementById("addi").innerHTML = "sum of  a, b and c is =" + sum
+
+  sub= a-b-c;
+  console.log("sub of a, b and c is:",sub)
+  document.getElementById("subt").style.color="blue"
+  document.getElementById("subt").innerHTML = "sub of  a, b and c is =" + sub
+
+  mul= a*b*c;
+  console.log("mul of a, b and c is:",mul)
+  document.getElementById("muli").style.color="lime"
+  document.getElementById("muli").innerHTML = "mul of  a, b and c is =" + mul
+
+  div= a/b/c;
+  console.log("div of a, b and c is:",div)
+  document.getElementById("divi").style.color="violet"
+  document.getElementById("divi").innerHTML = "div of  a, b and c is =" + div
+
+  mod= a%b%c;
+  console.log("mod of a, b and c is:",mod)
+  document.getElementById("modu").style.color="aqua"
+  document.getElementById("modu").innerHTML = "mod of  a, b and c is =" + mod
+
+</script>
+
+
+
+
+
+<script src="first.js"></script>
+<a href="./index2.html">Strings</a>
+</body>
+</html>
