@@ -1,6 +1,6 @@
 //alert("shanku")
 
-//roundind a number
+//rounding a number
 const num=26.35;
 console.log(Math.round(num));
 const num1=26.53;
@@ -79,20 +79,6 @@ const rate=263.236;
 console.log("int value is:",parseInt(rate));
 console.log("float value is:",parseFloat(rate));
 console.log("value is:",rate)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //Date methods

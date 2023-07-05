@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input[type="number"] {
+      width: 50px;
+     
+    }
+  
+    button {
+      margin-top: 10px;
+    }
+  
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    #btn{
+       
+      background-color:skyblue;
+        padding: 10px;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 20px;
+    }
+    #Telugu,#Hindi,#English,#Maths,#Science,#Social{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    h2{
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+  <h2> Results</h2>
+  
+  <label>Telugu:</label>
+  <input type="number" id="Telugu"  min="1" max="100" onchange="restrictValue(this)"><br><br>
+  
+  <label>Hindi:</label>
+  <input type="number" id="Hindi" min="1" max="100" onchange="restrictValue(this)"><br><br>
+  
+  <label>English:</label>
+  <input type="number" id="English"  min="1" max="100" onchange="restrictValue(this)"><br><br>
+  
+  <label>Maths:</label>
+  <input type="number" id="Maths"  min="1" max="100" onchange="restrictValue(this)"><br><br>
+
+  <label>Science:</label>
+  <input type="number" id="Science"  min="1" max="100" onchange="restrictValue(this)"><br><br>
+  
+  <label>Social:</label>
+  <input type="number" id="Social"  min="1" max="100" onchange="restrictValue(this)"><br><br>
+  
+  <button id="btn" onclick="calculateResult()">Result</button>
+  
+  <div id="result"></div>
+</div>
+  
+  
+
+
+  
+  
+ <script src="res.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.header{height:40px;
+background-color:#0F1111;
+color:blue;
+font-size: 22px;
+padding-top:20px;
+padding-left: 20px;
+gap: 50px;
+justify-content: space-between;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{display:flex;
+justify-content: space-around;}
