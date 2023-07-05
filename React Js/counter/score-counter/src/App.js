@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Cricket from './Score/Cricket';
 
 function App() {
   var count=0;
@@ -26,7 +27,10 @@ function App() {
     <button onClick={four}>4</button>
     <button onClick={six}>6</button>
     <button onClick={wicket}>W</button>
+
+    <Cricket/>
    </div>
+   
   );
 }
 
