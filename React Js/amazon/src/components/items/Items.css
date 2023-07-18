@@ -1,0 +1,4 @@
+#text:hover{color:red;}
+#itemsblock{display: flex;
+    overflow: scroll;
+}

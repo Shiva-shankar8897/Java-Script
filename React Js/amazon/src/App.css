@@ -1,0 +1,11 @@
+#dealsection{display: flex;
+gap: 50px;
+padding: 10px;
+overflow:scroll;
+}
+
+#arraydeal{display: flex;
+gap:50px;
+overflow: scroll;
+padding: 10px;
+}

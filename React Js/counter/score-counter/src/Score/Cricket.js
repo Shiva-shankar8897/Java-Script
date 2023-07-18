@@ -7,8 +7,15 @@ function Cricket() {
     const [wickets,setwickets]=useState(0);
     const handleScore=(event) =>{
         setscore(score+Number(event.target.value))
-    
-    }
+      }
+      
+      function handlewickets(){
+        if(wickets <10){
+          setwickets(wickets+1)
+        }else{
+          alert("Innings is over")
+        }
+      }
 
   return (
     <div>
@@ -21,7 +28,7 @@ function Cricket() {
       <button id="btn5" value={4} onClick={handleScore}> 4 Run</button>
       <button id="btn6" value={5} onClick={handleScore}> Wd+4 Run</button>
       <button id="btn7" value={6} onClick={handleScore}> 6 Run</button>
-      <button id="btn8"  onClick={() => setwickets(wickets+1)}> Wickets</button>
+      <button id="btn8"  onClick={handlewickets}> Wickets</button>
 
     </div>
   )

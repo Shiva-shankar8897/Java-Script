@@ -1,0 +1,30 @@
+#header{height: 50px;
+background-color: black;
+display: flex;
+color:white;
+gap:30px;
+padding:5px 30px;}
+
+
+#text{width:520px;
+    margin-top: 5px;
+height:25px;}
+#lang{padding-top: 10px;
+    height:25px;}
+span{font-size: 18px;}
+#header1{height:50px;
+background-color:#0F1111;
+display:flex;
+font-size: 18px;
+padding-top:10px;
+padding-left: 15px;
+color: white;
+gap:30px;}
+#card{height: 320px;
+    padding:10px
+}
+#cardimage{display: flex;
+gap:30px;
+overflow: scroll;
+padding: 8px;
+}

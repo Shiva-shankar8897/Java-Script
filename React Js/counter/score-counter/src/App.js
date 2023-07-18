@@ -3,6 +3,7 @@ import './App.css';
 import Cricket from './Score/Cricket';
 
 function App() {
+  
   var count=0;
   function zero(){
     count=0;
