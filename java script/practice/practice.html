@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
     <title>Practice</title>
 </head>
 <body>
+    <div id="container">
+    <form method="get">
+       <h3> Appilication Form</h3><br>
+       <label>Choose Play:</label>
+        <select name="" id="">
+            <option value="">Club House</option>
+            <option value="">Tennis Court</option>
+            <option value="">Both</option>
+        </select> <br> <br>
+        <label for="">Date:</label>
+        <input type="date"> <br> <br>
+        <label for="">Start Time:</label>
+        <input type="time"> <br> <br>
+        <label for="">End Time:</label>
+        <input type="time"><br> <br>
+        <label for="">Price:</label>
+          <select name="" id="price">
+            <option value="200" id="">Rs.200</option>
+            <option value="1000">Rs.1000</option>
+            <option value="1200">Both</option>
+          </select> <br> <br>
+        <button  type="button"  id='btn' onclick='play()'>Submit</button>
+    </form>
+    </div>
 <script src="practice.js"></script>
 </body>
 </html>
