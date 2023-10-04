@@ -1,0 +1,15 @@
+*{margin:opx;
+ padding:0px;
+}
+.d-flex{width:400px;
+margin-top: 10px;}
+.navbar{
+    height:auto;
+ background-color: #0F1111;
+}
+.nav-item .nav-link{color:white;
+}
+#demo{background-color: red;
+    overflow: scroll;
+}
+.d-block{display: flex;}

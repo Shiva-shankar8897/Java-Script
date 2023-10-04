@@ -1,0 +1,30 @@
+#header_container{height: 50px;
+    background-color: black;
+    display: flex;
+    color:white;
+    gap:30px;
+    padding:5px 30px;}
+    
+#text{width:520px;
+    margin-top: 5px;
+    height:25px;}
+#lang{padding-top: 10px;
+    height:25px;}
+span{font-size: 18px;}
+#header1{height:40px;
+    background-color:#0F1111;
+    display:flex;
+    font-size: 16px;
+    padding-top:10px;
+    padding-left: 15px;
+    color: white;
+    gap:15px;}
+#location{background-color:white;
+    height:20px;
+}
+#cart{background-color:white;
+    height:30px;
+   
+}
+#menu{background-color:white;
+    height:20px;}

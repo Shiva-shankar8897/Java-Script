@@ -1,0 +1,6 @@
+#deals_container{display:flex;
+overflow: scroll;
+margin: 10px;
+gap:50px;}
+span1{background-color:#CC0C39;}
+p{color:#CC0C39;}

@@ -1,0 +1,30 @@
+.container1{
+    text-align: center;
+}
+.container2{
+    text-align: center;
+    height:30px;
+    color: white;
+    padding-top: 10px;
+   background-color: #111;
+}
+.container3{
+   height:400px;
+   background-color:#232F3E;;
+   display: flex;
+   color: white;
+   padding:10px;
+ justify-content: space-evenly;
+}
+.container4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #111;
+    padding:10px;
+    color: white;
+    height:200px;
+}
+#foot{text-align: center;
+background-color: #111;
+height:70px;
+color:white}
