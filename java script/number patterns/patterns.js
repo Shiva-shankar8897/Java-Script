@@ -1,23 +1,23 @@
-for(let i=1; i<=4; i++){
-    for(let j=1; j<=i; j++){
-        document.write(i +" ");
+for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write(i + " ");
     }
     document.write("<br>");
 }
 document.write("<br>");
 
-for(let i=1; i<=4; i++){
-    for(let j=1; j<=i; j++){
-        document.write(j +" ");
+for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write(j + " ");
     }
     document.write("<br>");
 }
 document.write("<br>");
 
-var count=1;
-for(let i=1; i<=4; i++){
-    for(let j=1; j<=i; j++){
-        document.write(count +" ");
+var count = 1;
+for (let i = 1; i <= 4; i++) {
+    for (let j = 1; j <= i; j++) {
+        document.write(count + " ");
         count++;
     }
     document.write("<br>");
@@ -25,36 +25,36 @@ for(let i=1; i<=4; i++){
 document.write("<br>");
 
 
-for(let i=1; i<=4; i++){
-    for(let j=4; j>=i; j--){
+for (let i = 1; i <= 4; i++) {
+    for (let j = 4; j >= i; j--) {
         document.write("&nbsp;");
     }
-    for(let k=1; k<=i; k++){
-        document.write(i +" ");
+    for (let k = 1; k <= i; k++) {
+        document.write(i + " ");
     }
     document.write("<br>");
 }
 document.write("<br>");
 
 
-for(let i=1; i<=4; i++){
-    for(let j=4; j>=i; j--){
+for (let i = 1; i <= 4; i++) {
+    for (let j = 4; j >= i; j--) {
         document.write("&nbsp;");
     }
-    for(let k=1; k<=i; k++){
-        document.write(k +" ");
+    for (let k = 1; k <= i; k++) {
+        document.write(k + " ");
     }
     document.write("<br>");
 }
 document.write("<br>");
 
-var count=1;
-for(let i=1; i<=4; i++){
-    for(let j=4; j>=i; j--){
+var count = 1;
+for (let i = 1; i <= 4; i++) {
+    for (let j = 4; j >= i; j--) {
         document.write("&nbsp;");
     }
-    for(let k=1; k<=i; k++){
-        document.write(count+" ");
+    for (let k = 1; k <= i; k++) {
+        document.write(count + " ");
         count++;
     }
     document.write("<br>");
