@@ -2,19 +2,8 @@ import React, { useState } from 'react'
 import './stopwatch.css'
 
 function Stopwatch() {
-    const count=0;
-    const [seconds,setSeconds]=useState(0)
-    const [minutes,setMinutes]=useState(0)
-    const [hours,setHours]=useState(0)
-
-       setInterval(() => {
-         count=count+1;
-         setSeconds(count%60);
-         setMinutes((count/60)%60);
-         setHours(count/3600)
-         }, 10);
-        
-    
+  const [time,setTime]=useState({ms:0,s:0,m:0,h:0})
+ 
   return (
     <div>
      <div id='watch'>
