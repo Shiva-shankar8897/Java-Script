@@ -1,0 +1,11 @@
+ .nav-item .nav-link{
+ justify-content: space-between;
+ padding-left: 20px;
+}
+.nav{
+  background-color: black;
+}
+.rounded{
+  display:inline-flex;
+  row-gap: 30px;
+}

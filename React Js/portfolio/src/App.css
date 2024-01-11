@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.nav-link{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Home page */
+.row{
+    height: 300px;
+    background-color: rgb(247, 244, 244);
+    text-align: center;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    font-style: oblique;
+    font-weight: bold;
+}
+.btn{
+    padding: 5px;
+    border-radius: 10px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.btn:hover{
+    background-color: rgb(84, 100, 114);
+    color: rgb(68, 212, 200);
+    
+}
+
+/* footer */
+.name{
+    color: white;
+}
+.row .bg-dark{
+    display: flex;
+}
